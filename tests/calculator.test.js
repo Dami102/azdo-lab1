@@ -7,7 +7,7 @@ const {
 } = require("../src/calculator");
 describe("calculator", () => {
   test("adds two numbers", () => {
-    expect(add(2, 3)).toBe(6);
+    expect(add(2, 3)).toBe(5);
   });
   test("subtracts two numbers", () => {
     expect(subtract(5, 3)).toBe(2);
