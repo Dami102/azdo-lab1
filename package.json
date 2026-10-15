@@ -4,7 +4,8 @@
   "description": "Lab 1 - GitHub Flow with Azure DevOps",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "node src/server.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,8 @@
   "homepage": "https://github.com/Dami102/azdo-lab1#readme",
   "devDependencies": {
     "jest": "^30.5.2"
+  },
+  "dependencies": {
+    "express": "^5.3.0"
   }
 }
