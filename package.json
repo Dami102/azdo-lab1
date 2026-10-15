@@ -1,0 +1,24 @@
+{
+  "name": "azdo-lab1",
+  "version": "1.0.0",
+  "description": "Lab 1 - GitHub Flow with Azure DevOps",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dami102/azdo-lab1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Dami102/azdo-lab1/issues"
+  },
+  "homepage": "https://github.com/Dami102/azdo-lab1#readme",
+  "devDependencies": {
+    "jest": "^30.5.2"
+  }
+}
