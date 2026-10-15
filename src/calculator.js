@@ -20,4 +20,8 @@ function modulo(a, b) {
   }
   return a % b;
 }
-module.exports = { add, subtract, multiply, divide, modulo };
+
+function power(base, exponent) {
+  return Math.pow(base, exponent);
+}
+module.exports = { add, subtract, multiply, divide, modulo, power };

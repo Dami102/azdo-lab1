@@ -4,6 +4,7 @@ const {
   multiply,
   divide,
   modulo,
+  power,
 } = require("../src/calculator");
 describe("calculator", () => {
   test("adds two numbers", () => {
@@ -26,5 +27,8 @@ describe("calculator", () => {
   });
   test("modulo throws when dividing by zero", () => {
     expect(() => modulo(1, 0)).toThrow("Cannot divide by zero");
+  });
+  test("raises a number to a power", () => {
+    expect(power(2, 3)).toBe(8);
   });
 });
